@@ -1,0 +1,6 @@
+org/openmrs/module/cancerscreeninglabresults/web/controller/CancerscreeninglabresultsController.class
+org/openmrs/module/cancerscreeninglabresults/web/controller/ImportLabResultsController.class
+org/openmrs/module/cancerscreeninglabresults/extension/html/AdminList.class
+org/openmrs/module/cancerscreeninglabresults/util/labResultsObject.class
+org/openmrs/module/cancerscreeninglabresults/web/controller/ModelAndView.class
+org/openmrs/module/cancerscreeninglabresults/util/UploadedResults.class
