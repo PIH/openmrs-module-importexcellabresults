@@ -1,0 +1,6 @@
+org/openmrs/module/cancerscreeninglabresults/CancerscreeninglabresultsConfig.class
+org/openmrs/module/cancerscreeninglabresults/api/dao/CancerscreeninglabresultsDao.class
+org/openmrs/module/cancerscreeninglabresults/CancerscreeninglabresultsActivator.class
+org/openmrs/module/cancerscreeninglabresults/Item.class
+org/openmrs/module/cancerscreeninglabresults/api/impl/CancerscreeninglabresultsServiceImpl.class
+org/openmrs/module/cancerscreeninglabresults/api/CancerscreeninglabresultsService.class
