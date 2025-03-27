@@ -21,7 +21,7 @@
 	
 	<!-- Extensions -->
 	<extension>
-		<point>org.openmrs.admin.list</point>
+		<point>org.openmrs.tracmodule.list</point>
 		<class>org.openmrs.module.cancerscreeninglabresults.extension.html.AdminList</class>
 	</extension>
 
@@ -36,14 +36,11 @@
 		<class>org.openmrs.module.cancerscreeninglabresults.advice.DuplicateFormAdvisor</class>
 	</advice>
 	 /AOP -->
-	
-	
-	<!-- Required Privileges 
+
 	<privilege>
-		<name>Form Entry</name>
-		<description>Allows user to access Form Entry pages/functions</description>
+		<name>HPV Results Entry</name>
+		<description>Allows user to enter HPV results of a facility</description>
 	</privilege>
-	 /Required Privileges -->
 
 
 	<!-- Required Global Properties 

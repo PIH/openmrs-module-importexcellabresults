@@ -9,11 +9,9 @@
  */
 package org.openmrs.module.cancerscreeninglabresults.api;
 
-import org.openmrs.Encounter;
 import org.openmrs.annotation.Authorized;
 import org.openmrs.api.APIException;
 import org.openmrs.api.OpenmrsService;
-import org.openmrs.module.cancerscreeninglabresults.CancerscreeninglabresultsConfig;
 import org.openmrs.module.cancerscreeninglabresults.Item;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -43,7 +41,7 @@ public interface CancerscreeninglabresultsService extends OpenmrsService {
 	 * @return
 	 * @throws APIException
 	 */
-	@Authorized(CancerscreeninglabresultsConfig.MODULE_PRIVILEGE)
+	
 	@Transactional
 	Item saveItem(Item item) throws APIException;
 	
