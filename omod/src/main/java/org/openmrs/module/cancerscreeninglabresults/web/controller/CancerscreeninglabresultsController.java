@@ -194,9 +194,9 @@ public class CancerscreeninglabresultsController extends ParameterizableViewCont
 								if (HIVStatus != null
 								        && HIVStatus.getValueCoded().getUuid()
 								                .equalsIgnoreCase("3cd3a7a2-26fe-102b-80cb-0017a47871b2")) {
-									currentDate.add(Calendar.YEAR, 3);
-								} else {
 									currentDate.add(Calendar.YEAR, 5);
+								} else {
+									currentDate.add(Calendar.YEAR, 10);
 								}
 								nextVisit = createDatetimeObs(patient.getPerson(),
 								    conceptService.getConceptByUuid("3ce94df0-26fe-102b-80cb-0017a47871b2"),
